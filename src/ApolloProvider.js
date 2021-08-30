@@ -9,7 +9,7 @@ import {
 import { setContext } from '@apollo/client/link/context';
 
 const httpLink = createHttpLink({
-  uri: 'https://infinite-forest-73205.herokuapp.com/',
+  uri: 'https://elgendy-social-media-graphql.herokuapp.com/',
 });
 
 const authLink = setContext(() => {
